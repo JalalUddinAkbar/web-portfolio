@@ -6,6 +6,9 @@ h1{
     font-size: 50px;
     
 }
+h2{
+    font-size: 40px;
+}
 .summery{
     text-align: justify;
 }
@@ -17,15 +20,17 @@ h1{
     float: left;
     margin-left: 6%;
     padding-left: 2%;
+    
 }
-.imaag{
+.half-width img{
     width:85%;
 }
 section{
     height: 500px;
+    padding-bottom: 200px;
 }
 .top-part{
-    background-image: url(images/top-banner.png);
+    background-image: url("images/top-banner.png");
     background-repeat: no-repeat;
 }
 .link-button{
@@ -36,4 +41,36 @@ section{
     color: white;
     border-radius: 5px;
     
+}
+p{
+    color: dimgray;
+}
+.dream-area{
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.single{
+    box-shadow: 12px 12px 40px gray;
+    border-radius: 5px;
+    height: 80%;
+}
+.experience{
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,rgb(216, 58, 46),lightsalmon);
+    border-image-slice: 1;
+    background-color: white;
+}
+#baby{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue, rgb(24, 247, 247));
+    border-image-slice: 1;
+}
+.foot{
+    text-align: center;
 }
